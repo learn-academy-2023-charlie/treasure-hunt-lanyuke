@@ -1,6 +1,7 @@
 import React from "react"
 
 const Square = (props) => {
+
   return (
     <div id="grid">
       {props.board.map((value, index) => {

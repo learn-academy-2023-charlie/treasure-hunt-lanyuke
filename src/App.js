@@ -15,8 +15,19 @@ const App = () => {
     "?"
   ])
 
-  const handleClick = (selectedIndex) => {
-    alert(selectedIndex)
+
+
+  const handleClick = (selectedIndex) => { 
+    if (selectedIndex === 0) {
+      board[0] = "💰"  
+      alert(selectedIndex)
+    } else if (selectedIndex === 8) {
+      board[8] = "💣" 
+      alert(selectedIndex)
+    } else {
+      board[selectedIndex] = "🌳" 
+      alert(selectedIndex)
+    }
   }
 
   return (
