@@ -9,9 +9,15 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 
 ### 📚 User Stories
 
-- As a user, I can see a page with a three by three grid board game with a question mark in each square.
-- As a user, when I click on one of the question marks an alert appears with the index position of that question mark in the array.
-- As a user, when I click on one of the question marks instead of the alert the question mark turns into a tree emoji.
+<!-- - As a user, I can see a page with a three by three grid board game with a question mark in each square. -->
+<!-- - As a user, when I click on one of the question marks an alert appears with the index position of that question mark in the array.
+    pseudo code:
+    - input: index of the selected square: 'selectedIndex'
+    - output: alert message
+    - process:create a function name: handleClick
+    - function call: onClick attribute on
+    specific square's index. -->
+
 - As a user, if I select the winning square the question mark will become a treasure emoji and if I select the losing square the question mark will become a bomb emoji.
 - As a user, I can click on a “Play Again” button that will restart the game.
 - As a user, I can see a counter that shows how many guesses I have left. The counter starts at five and decrements one every time I click on a square that is not the treasure nor the bomb.
